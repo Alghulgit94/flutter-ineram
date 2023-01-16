@@ -11,7 +11,7 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(children: [
-        TitleIneram(title: "Menu Inicial"),
+        TitleIneram(title: "Protocolos Ineram"),
         const LoginForm(),
         const ButtonLogin(),
         HyperLinkTextIneram(text: "Olvidaste tu Contraseña?"),
